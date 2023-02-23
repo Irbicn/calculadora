@@ -1,0 +1,25 @@
+.boton-calculadora {
+  height: 83px;
+  font-weight: bold;
+  font-size: 38px;
+  color: white;
+  background-color: #1b1b32;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  flex: 1 1;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.boton-calculadora:hover {
+  background-color: #5a01a7;
+}
+.boton-calculadora.operador {
+  background-color: #00471b;
+}
+.boton-calculadora.operador:hover {
+  background-color: #ff6600;
+}

@@ -1,0 +1,19 @@
+.boton-clear-calculadora {
+  height: 80px;
+  font-size: 26px;
+  display: flex;
+  flex: 1;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #ac0246;
+  border-radius: 45px;
+  color: white;
+  user-select: none;
+}
+
+.boton-clear-calculadora:hover {
+  background-color: #ebb000;
+}
